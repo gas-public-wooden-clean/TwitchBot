@@ -215,7 +215,8 @@ namespace TwitchBot
 				_connection = null;
 				if (_automaticMessageSender != null)
 				{
-					_automaticMessageSender.Disconnect();
+					_automaticMessageSender.Dispose();
+					_automaticMessageSender = null;
 				}
 			}
 
@@ -409,7 +410,8 @@ namespace TwitchBot
 			}
             if (_automaticMessageSender != null)
             {
-                _automaticMessageSender.Disconnect();
+                _automaticMessageSender.Dispose();
+				_automaticMessageSender = null;
             }
 			if (_log != null)
 			{
