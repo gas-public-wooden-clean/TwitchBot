@@ -16,6 +16,9 @@
 # Extensible markup language.
 *.xml text
 
+# Text editor configuration.
+.editorconfig
+
 # Markdown for readmes.
 *.md text
 
