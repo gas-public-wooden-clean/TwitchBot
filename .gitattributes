@@ -1,0 +1,24 @@
+# Visual Studio solution.
+*.sln text
+
+# Visual Studio C# project.
+*.csproj text
+
+# C# code.
+*.cs text
+
+# Visual Studio resource.
+*.resx text
+
+# Project configuration.
+*.config text
+
+# Extensible markup language.
+*.xml text
+
+# Markdown for readmes.
+*.md text
+
+# Git metadata.
+.gitattributes text
+.gitignore text
